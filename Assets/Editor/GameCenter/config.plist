@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>pListAdditions</key>
+    <array />
+    <key>requiredFrameworks</key>
+    <array>
+      <string>CoreGraphics.framework</string>
+      <string>GameKit.framework</string>
+      <string>AVFoundation.framework</string>
+    </array>
+    <key>dynamicLibraries</key>
+    <array />
+    <key>linkerFlags</key>
+    <array />
+    <key>neverShowCompletedMessage</key>
+    <false />
+    <key>weakLinkFrameworks</key>
+    <array>
+      <string>GameKit</string>
+    </array>
+  </dict>
+</plist>

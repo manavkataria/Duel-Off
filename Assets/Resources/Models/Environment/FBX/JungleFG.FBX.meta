@@ -1,0 +1,2013 @@
+fileFormatVersion: 2
+guid: 4827b4c932f04fa4b9b724505c5138f1
+ModelImporter:
+  fileIDToRecycleName:
+    4300000: FG01
+    4300002: FG02
+    4300004: FG03
+    4300006: FG04
+    4300008: FG05
+    4300010: FG06
+    4300012: FG07
+    4300014: FG08
+    4300016: FG09
+    4300018: FG10
+    4300020: FG11
+    4300022: FG12
+    4300024: FG13
+    4300026: FG14
+    4300028: FG15
+    4300030: FG16
+    4300032: FG17
+    4300034: FG18
+    4300036: FG19
+    4300038: FG20
+    4300040: FG21
+    4300042: FG22
+    4300044: FG23
+    4300046: FG24
+    4300048: FG25
+    4300050: FG26
+    4300052: FG27
+    4300054: FG28
+    4300056: FG29
+    4300058: FG30
+    4300060: FG31
+    4300062: FG32
+    4300064: FG33
+    4300066: FG34
+    4300068: FG35
+    4300070: FG36
+    4300072: FG37
+    4300074: FG38
+    4300076: FG39
+    4300078: FG40
+    4300080: FG41
+    4300082: FG42
+    4300084: FG43
+    4300086: FG44
+    4300088: FG45
+    4300090: FG46
+    4300092: FG47
+    4300094: FG48
+    4300096: FG49
+    4300098: FG50
+    4300100: FG51
+    4300102: FG52
+    4300104: FG53
+    4300106: FG54
+    4300108: FG55
+    4300110: FG56
+    4300112: FG57
+    4300114: FG58
+    4300116: FG59
+    4300118: FG60
+    4300120: FG61
+    4300122: FG62
+    4300124: FG63
+    4300126: FG64
+    4300128: FG65
+    4300130: FG66
+    4300132: FG67
+    4300134: FG68
+    4300136: FG69
+    4300138: FG70
+    4300140: FG71
+    4300142: FG72
+    4300144: FG73
+    4300146: FG74
+    4300148: FG75
+    4300150: FG76
+    4300152: FG77
+    4300154: FG78
+    4300156: FG79
+    4300158: FG80
+    4300160: FG81
+    4300162: FG82
+    4300164: FG83
+    4300166: FG84
+    4300168: FG85
+    4300170: FG86
+    4300172: FG87
+    4300174: FG88
+    4300176: FG89
+    4300178: FG90
+    4300180: FG91
+    4300182: FG92
+    4300184: FG93
+    4300186: FG94
+    4300188: FG95
+    4300190: FG96
+    4300192: FG97
+    4300194: FG98
+    4300196: FG99
+    4300198: FG100
+    4300200: FG101
+    4300202: FG102
+    4300204: FG103
+    4300206: FG104
+    4300208: FG105
+    4300210: FG106
+    4300212: FG107
+    4300214: FG108
+    4300216: FG109
+    4300218: FG110
+    4300220: FG111
+    4300222: FG112
+    4300224: FG113
+    4300226: FG114
+    4300228: FG115
+    4300230: FG116
+    4300232: FG117
+    4300234: FG118
+    4300236: FG119
+    4300238: FG120
+    4300240: FG121
+    4300242: FG122
+    4300244: FG123
+    4300246: FG124
+    4300248: FG125
+    4300250: FG126
+    4300252: FG127
+    4300254: FG128
+    4300256: FG129
+    4300258: FG130
+    4300260: FG131
+    4300262: Water01
+    4300264: Water02
+    4300266: Water03
+    4300268: Water04
+    4300270: NewTree01
+    4300272: NewTree02
+    4300274: NewTree03
+    4300276: NewTree04
+    4300278: NewTree05
+    4300280: NewTree06
+    4300282: NewTree07
+    4300284: NewTree08
+    4300286: NewTree09
+    4300288: NewTree10
+    4300290: NewTree11
+    4300292: NewTree12
+    4300294: NewTree13
+    4300296: NewTree14
+    4300298: NewTree15
+    4300300: NewTree16
+    4300302: NewTree17
+    4300304: NewTree18
+    4300306: NewTree19
+    4300308: NewTree20
+    4300310: NewTree21
+    4300312: NewTree22
+    4300314: NewRock01
+    4300316: NewRock02
+    4300318: NewRock03
+    4300320: NewRock04
+    4300322: NewRock05
+    4300324: NewRock06
+    4300326: NewRock07
+    4300328: NewRock08
+    4300330: NewRock09
+    4300332: NewRock10
+    4300334: NewRock11
+    4300336: NewRock12
+    4300338: NewRock13
+    4300340: NewRock14
+    4300342: NewRock15
+    4300344: NewRock16
+    4300346: NewRock17
+    4300348: NewGrass01
+    4300350: NewGrass02
+    4300352: NewGrass03
+    4300354: NewGrass04
+    4300356: NewGrass05
+    4300358: NewGrass06
+    4300360: NewGrass07
+    4300362: NewGrass08
+    4300364: NewGrass09
+    4300366: NewGrass10
+    4300368: NewGrass11
+    4300370: NewGrass12
+    4300372: NewGrass13
+    4300374: NewGrass14
+    4300376: NewGrass15
+    4300378: NewGrass16
+    4300380: NewGrass17
+    4300382: NewGrass18
+    4300384: NewGrass19
+    4300386: NewGrass20
+    4300388: NewGrass21
+    4300390: NewGrass22
+    4300392: NewGrass23
+    4300394: NewGrass24
+    4300396: NewGrass25
+    4300398: NewGrass26
+    4300400: NewGrass27
+    4300402: NewGrass28
+    4300404: NewGrass29
+    4300406: NewGrass30
+    4300408: NewGrass31
+    4300410: NewGrass32
+    4300412: NewGrass33
+    4300414: NewGrass34
+    4300416: NewGrass35
+    4300418: NewGrass36
+    4300420: NewGrass37
+    4300422: NewGrass38
+    4300424: NewGrass39
+    4300426: NewGrass40
+    4300428: NewGrass41
+    4300430: NewGrass42
+    4300432: NewGrass43
+    4300434: NewGrass44
+    4300436: NewGrass45
+    4300438: NewGrass46
+    4300440: NewGrass47
+    4300442: NewGrass48
+    4300444: NewGrass49
+    4300446: NewGrass50
+    4300448: NewGrass51
+    4300450: NewGrass52
+    4300452: NewGrass53
+    4300454: NewGrass54
+    4300456: NewGrass55
+    4300458: NewGrass56
+    4300460: NewGrass57
+    4300462: NewGrass58
+    4300464: NewGrass59
+    4300466: NewGrass60
+    4300468: NewHut01
+    4300470: NewHut02
+    4300472: NewHut03
+    4300474: NewPlant01
+    4300476: NewPlant02
+    4300478: NewPlant03
+    4300480: NewPlant04
+    4300482: NewPlant05
+    4300484: NewPlant06
+    4300486: NewPlant07
+    4300488: NewPlant08
+    4300490: NewPlant09
+    4300492: NewPlant10
+    4300494: NewPlant11
+    4300496: NewPlant12
+    4300498: NewPlant13
+    4300500: NewPlant14
+    4300502: NewPlant15
+    4300504: NewPlant16
+    4300506: NewPlant17
+    4300508: NewPlant18
+    4300510: NewPlant19
+    4300512: NewPlant20
+    4300514: NewPlant21
+    4300516: NewPlant22
+    4300518: NewPlant23
+    4300520: NewPlant24
+    4300522: NewPlant25
+  serializedVersion: 10
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    generateAnimations: 3
+    bakeSimulation: 0
+    splitAnimations: 1
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations: []
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMesh: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  textMetaNamesToFileIDs:
+    //RootNode:
+      data:
+        first: 1
+        second: a0860100
+      data:
+        first: 4
+        second: 801a0600
+      data:
+        first: 111
+        second: 605fa900
+    NewGrass01:
+      data:
+        first: 1
+        second: e8860100
+      data:
+        first: 4
+        second: c81a0600
+      data:
+        first: 23
+        second: a6182300
+      data:
+        first: 33
+        second: e65a3200
+    NewGrass02:
+      data:
+        first: 1
+        second: e6860100
+      data:
+        first: 4
+        second: c61a0600
+      data:
+        first: 23
+        second: a4182300
+      data:
+        first: 33
+        second: e45a3200
+    NewGrass03:
+      data:
+        first: 1
+        second: e4860100
+      data:
+        first: 4
+        second: c41a0600
+      data:
+        first: 23
+        second: a2182300
+      data:
+        first: 33
+        second: e25a3200
+    NewGrass04:
+      data:
+        first: 1
+        second: e2860100
+      data:
+        first: 4
+        second: c21a0600
+      data:
+        first: 23
+        second: a0182300
+      data:
+        first: 33
+        second: e05a3200
+    NewGrass05:
+      data:
+        first: 1
+        second: a6870100
+      data:
+        first: 4
+        second: 861b0600
+      data:
+        first: 23
+        second: 64192300
+      data:
+        first: 33
+        second: a45b3200
+    NewGrass06:
+      data:
+        first: 1
+        second: a4870100
+      data:
+        first: 4
+        second: 841b0600
+      data:
+        first: 23
+        second: 62192300
+      data:
+        first: 33
+        second: a25b3200
+    NewGrass07:
+      data:
+        first: 1
+        second: a2870100
+      data:
+        first: 4
+        second: 821b0600
+      data:
+        first: 23
+        second: 60192300
+      data:
+        first: 33
+        second: a05b3200
+    NewGrass08:
+      data:
+        first: 1
+        second: a0870100
+      data:
+        first: 4
+        second: 801b0600
+      data:
+        first: 23
+        second: 5e192300
+      data:
+        first: 33
+        second: 9e5b3200
+    NewGrass09:
+      data:
+        first: 1
+        second: 9e870100
+      data:
+        first: 4
+        second: 7e1b0600
+      data:
+        first: 23
+        second: 5c192300
+      data:
+        first: 33
+        second: 9c5b3200
+    NewGrass10:
+      data:
+        first: 1
+        second: 9c870100
+      data:
+        first: 4
+        second: 7c1b0600
+      data:
+        first: 23
+        second: 5a192300
+      data:
+        first: 33
+        second: 9a5b3200
+    NewGrass11:
+      data:
+        first: 1
+        second: 9a870100
+      data:
+        first: 4
+        second: 7a1b0600
+      data:
+        first: 23
+        second: 58192300
+      data:
+        first: 33
+        second: 985b3200
+    NewGrass12:
+      data:
+        first: 1
+        second: 98870100
+      data:
+        first: 4
+        second: 781b0600
+      data:
+        first: 23
+        second: 56192300
+      data:
+        first: 33
+        second: 965b3200
+    NewGrass13:
+      data:
+        first: 1
+        second: 96870100
+      data:
+        first: 4
+        second: 761b0600
+      data:
+        first: 23
+        second: 54192300
+      data:
+        first: 33
+        second: 945b3200
+    NewGrass14:
+      data:
+        first: 1
+        second: 94870100
+      data:
+        first: 4
+        second: 741b0600
+      data:
+        first: 23
+        second: 52192300
+      data:
+        first: 33
+        second: 925b3200
+    NewGrass15:
+      data:
+        first: 1
+        second: 92870100
+      data:
+        first: 4
+        second: 721b0600
+      data:
+        first: 23
+        second: 50192300
+      data:
+        first: 33
+        second: 905b3200
+    NewGrass16:
+      data:
+        first: 1
+        second: 90870100
+      data:
+        first: 4
+        second: 701b0600
+      data:
+        first: 23
+        second: 4e192300
+      data:
+        first: 33
+        second: 8e5b3200
+    NewGrass17:
+      data:
+        first: 1
+        second: 8e870100
+      data:
+        first: 4
+        second: 6e1b0600
+      data:
+        first: 23
+        second: 4c192300
+      data:
+        first: 33
+        second: 8c5b3200
+    NewGrass18:
+      data:
+        first: 1
+        second: 8c870100
+      data:
+        first: 4
+        second: 6c1b0600
+      data:
+        first: 23
+        second: 4a192300
+      data:
+        first: 33
+        second: 8a5b3200
+    NewGrass19:
+      data:
+        first: 1
+        second: 8a870100
+      data:
+        first: 4
+        second: 6a1b0600
+      data:
+        first: 23
+        second: 48192300
+      data:
+        first: 33
+        second: 885b3200
+    NewGrass20:
+      data:
+        first: 1
+        second: 88870100
+      data:
+        first: 4
+        second: 681b0600
+      data:
+        first: 23
+        second: 46192300
+      data:
+        first: 33
+        second: 865b3200
+    NewGrass21:
+      data:
+        first: 1
+        second: 86870100
+      data:
+        first: 4
+        second: 661b0600
+      data:
+        first: 23
+        second: 44192300
+      data:
+        first: 33
+        second: 845b3200
+    NewGrass22:
+      data:
+        first: 1
+        second: 84870100
+      data:
+        first: 4
+        second: 641b0600
+      data:
+        first: 23
+        second: 42192300
+      data:
+        first: 33
+        second: 825b3200
+    NewGrass23:
+      data:
+        first: 1
+        second: 82870100
+      data:
+        first: 4
+        second: 621b0600
+      data:
+        first: 23
+        second: 40192300
+      data:
+        first: 33
+        second: 805b3200
+    NewGrass24:
+      data:
+        first: 1
+        second: 80870100
+      data:
+        first: 4
+        second: 601b0600
+      data:
+        first: 23
+        second: 3e192300
+      data:
+        first: 33
+        second: 7e5b3200
+    NewGrass25:
+      data:
+        first: 1
+        second: 7e870100
+      data:
+        first: 4
+        second: 5e1b0600
+      data:
+        first: 23
+        second: 3c192300
+      data:
+        first: 33
+        second: 7c5b3200
+    NewGrass26:
+      data:
+        first: 1
+        second: 7c870100
+      data:
+        first: 4
+        second: 5c1b0600
+      data:
+        first: 23
+        second: 3a192300
+      data:
+        first: 33
+        second: 7a5b3200
+    NewGrass27:
+      data:
+        first: 1
+        second: 7a870100
+      data:
+        first: 4
+        second: 5a1b0600
+      data:
+        first: 23
+        second: 38192300
+      data:
+        first: 33
+        second: 785b3200
+    NewGrass28:
+      data:
+        first: 1
+        second: 78870100
+      data:
+        first: 4
+        second: 581b0600
+      data:
+        first: 23
+        second: 36192300
+      data:
+        first: 33
+        second: 765b3200
+    NewGrass29:
+      data:
+        first: 1
+        second: 76870100
+      data:
+        first: 4
+        second: 561b0600
+      data:
+        first: 23
+        second: 34192300
+      data:
+        first: 33
+        second: 745b3200
+    NewGrass30:
+      data:
+        first: 1
+        second: 74870100
+      data:
+        first: 4
+        second: 541b0600
+      data:
+        first: 23
+        second: 32192300
+      data:
+        first: 33
+        second: 725b3200
+    NewGrass31:
+      data:
+        first: 1
+        second: 72870100
+      data:
+        first: 4
+        second: 521b0600
+      data:
+        first: 23
+        second: 30192300
+      data:
+        first: 33
+        second: 705b3200
+    NewGrass32:
+      data:
+        first: 1
+        second: 70870100
+      data:
+        first: 4
+        second: 501b0600
+      data:
+        first: 23
+        second: 2e192300
+      data:
+        first: 33
+        second: 6e5b3200
+    NewGrass33:
+      data:
+        first: 1
+        second: 6e870100
+      data:
+        first: 4
+        second: 4e1b0600
+      data:
+        first: 23
+        second: 2c192300
+      data:
+        first: 33
+        second: 6c5b3200
+    NewGrass34:
+      data:
+        first: 1
+        second: 6c870100
+      data:
+        first: 4
+        second: 4c1b0600
+      data:
+        first: 23
+        second: 2a192300
+      data:
+        first: 33
+        second: 6a5b3200
+    NewGrass35:
+      data:
+        first: 1
+        second: 6a870100
+      data:
+        first: 4
+        second: 4a1b0600
+      data:
+        first: 23
+        second: 28192300
+      data:
+        first: 33
+        second: 685b3200
+    NewGrass36:
+      data:
+        first: 1
+        second: 68870100
+      data:
+        first: 4
+        second: 481b0600
+      data:
+        first: 23
+        second: 26192300
+      data:
+        first: 33
+        second: 665b3200
+    NewGrass37:
+      data:
+        first: 1
+        second: 66870100
+      data:
+        first: 4
+        second: 461b0600
+      data:
+        first: 23
+        second: 24192300
+      data:
+        first: 33
+        second: 645b3200
+    NewGrass38:
+      data:
+        first: 1
+        second: 64870100
+      data:
+        first: 4
+        second: 441b0600
+      data:
+        first: 23
+        second: 22192300
+      data:
+        first: 33
+        second: 625b3200
+    NewGrass39:
+      data:
+        first: 1
+        second: 62870100
+      data:
+        first: 4
+        second: 421b0600
+      data:
+        first: 23
+        second: 20192300
+      data:
+        first: 33
+        second: 605b3200
+    NewGrass40:
+      data:
+        first: 1
+        second: 60870100
+      data:
+        first: 4
+        second: 401b0600
+      data:
+        first: 23
+        second: 1e192300
+      data:
+        first: 33
+        second: 5e5b3200
+    NewGrass41:
+      data:
+        first: 1
+        second: 5e870100
+      data:
+        first: 4
+        second: 3e1b0600
+      data:
+        first: 23
+        second: 1c192300
+      data:
+        first: 33
+        second: 5c5b3200
+    NewGrass42:
+      data:
+        first: 1
+        second: 5c870100
+      data:
+        first: 4
+        second: 3c1b0600
+      data:
+        first: 23
+        second: 1a192300
+      data:
+        first: 33
+        second: 5a5b3200
+    NewGrass43:
+      data:
+        first: 1
+        second: 5a870100
+      data:
+        first: 4
+        second: 3a1b0600
+      data:
+        first: 23
+        second: 18192300
+      data:
+        first: 33
+        second: 585b3200
+    NewGrass44:
+      data:
+        first: 1
+        second: 58870100
+      data:
+        first: 4
+        second: 381b0600
+      data:
+        first: 23
+        second: 16192300
+      data:
+        first: 33
+        second: 565b3200
+    NewGrass45:
+      data:
+        first: 1
+        second: 56870100
+      data:
+        first: 4
+        second: 361b0600
+      data:
+        first: 23
+        second: 14192300
+      data:
+        first: 33
+        second: 545b3200
+    NewGrass46:
+      data:
+        first: 1
+        second: 54870100
+      data:
+        first: 4
+        second: 341b0600
+      data:
+        first: 23
+        second: 12192300
+      data:
+        first: 33
+        second: 525b3200
+    NewGrass47:
+      data:
+        first: 1
+        second: 52870100
+      data:
+        first: 4
+        second: 321b0600
+      data:
+        first: 23
+        second: 10192300
+      data:
+        first: 33
+        second: 505b3200
+    NewGrass48:
+      data:
+        first: 1
+        second: 50870100
+      data:
+        first: 4
+        second: 301b0600
+      data:
+        first: 23
+        second: 0e192300
+      data:
+        first: 33
+        second: 4e5b3200
+    NewGrass49:
+      data:
+        first: 1
+        second: 4e870100
+      data:
+        first: 4
+        second: 2e1b0600
+      data:
+        first: 23
+        second: 0c192300
+      data:
+        first: 33
+        second: 4c5b3200
+    NewGrass50:
+      data:
+        first: 1
+        second: 4c870100
+      data:
+        first: 4
+        second: 2c1b0600
+      data:
+        first: 23
+        second: 0a192300
+      data:
+        first: 33
+        second: 4a5b3200
+    NewGrass51:
+      data:
+        first: 1
+        second: 4a870100
+      data:
+        first: 4
+        second: 2a1b0600
+      data:
+        first: 23
+        second: 08192300
+      data:
+        first: 33
+        second: 485b3200
+    NewGrass52:
+      data:
+        first: 1
+        second: 48870100
+      data:
+        first: 4
+        second: 281b0600
+      data:
+        first: 23
+        second: 06192300
+      data:
+        first: 33
+        second: 465b3200
+    NewGrass53:
+      data:
+        first: 1
+        second: 46870100
+      data:
+        first: 4
+        second: 261b0600
+      data:
+        first: 23
+        second: 04192300
+      data:
+        first: 33
+        second: 445b3200
+    NewGrass54:
+      data:
+        first: 1
+        second: 44870100
+      data:
+        first: 4
+        second: 241b0600
+      data:
+        first: 23
+        second: 02192300
+      data:
+        first: 33
+        second: 425b3200
+    NewGrass55:
+      data:
+        first: 1
+        second: 42870100
+      data:
+        first: 4
+        second: 221b0600
+      data:
+        first: 23
+        second: 00192300
+      data:
+        first: 33
+        second: 405b3200
+    NewGrass56:
+      data:
+        first: 1
+        second: 40870100
+      data:
+        first: 4
+        second: 201b0600
+      data:
+        first: 23
+        second: fe182300
+      data:
+        first: 33
+        second: 3e5b3200
+    NewGrass57:
+      data:
+        first: 1
+        second: e0860100
+      data:
+        first: 4
+        second: c01a0600
+      data:
+        first: 23
+        second: 9e182300
+      data:
+        first: 33
+        second: de5a3200
+    NewGrass58:
+      data:
+        first: 1
+        second: de860100
+      data:
+        first: 4
+        second: be1a0600
+      data:
+        first: 23
+        second: 9c182300
+      data:
+        first: 33
+        second: dc5a3200
+    NewGrass59:
+      data:
+        first: 1
+        second: dc860100
+      data:
+        first: 4
+        second: bc1a0600
+      data:
+        first: 23
+        second: 9a182300
+      data:
+        first: 33
+        second: da5a3200
+    NewGrass60:
+      data:
+        first: 1
+        second: da860100
+      data:
+        first: 4
+        second: ba1a0600
+      data:
+        first: 23
+        second: 98182300
+      data:
+        first: 33
+        second: d85a3200
+    NewHut01:
+      data:
+        first: 1
+        second: d8860100
+      data:
+        first: 4
+        second: b81a0600
+      data:
+        first: 23
+        second: 96182300
+      data:
+        first: 33
+        second: d65a3200
+    NewHut02:
+      data:
+        first: 1
+        second: d6860100
+      data:
+        first: 4
+        second: b61a0600
+      data:
+        first: 23
+        second: 94182300
+      data:
+        first: 33
+        second: d45a3200
+    NewHut03:
+      data:
+        first: 1
+        second: d4860100
+      data:
+        first: 4
+        second: b41a0600
+      data:
+        first: 23
+        second: 92182300
+      data:
+        first: 33
+        second: d25a3200
+    NewPlant01:
+      data:
+        first: 1
+        second: d2860100
+      data:
+        first: 4
+        second: b21a0600
+      data:
+        first: 23
+        second: 90182300
+      data:
+        first: 33
+        second: d05a3200
+    NewPlant02:
+      data:
+        first: 1
+        second: d0860100
+      data:
+        first: 4
+        second: b01a0600
+      data:
+        first: 23
+        second: 8e182300
+      data:
+        first: 33
+        second: ce5a3200
+    NewPlant03:
+      data:
+        first: 1
+        second: ce860100
+      data:
+        first: 4
+        second: ae1a0600
+      data:
+        first: 23
+        second: 8c182300
+      data:
+        first: 33
+        second: cc5a3200
+    NewPlant04:
+      data:
+        first: 1
+        second: cc860100
+      data:
+        first: 4
+        second: ac1a0600
+      data:
+        first: 23
+        second: 8a182300
+      data:
+        first: 33
+        second: ca5a3200
+    NewPlant05:
+      data:
+        first: 1
+        second: ca860100
+      data:
+        first: 4
+        second: aa1a0600
+      data:
+        first: 23
+        second: 88182300
+      data:
+        first: 33
+        second: c85a3200
+    NewPlant06:
+      data:
+        first: 1
+        second: c8860100
+      data:
+        first: 4
+        second: a81a0600
+      data:
+        first: 23
+        second: 86182300
+      data:
+        first: 33
+        second: c65a3200
+    NewPlant07:
+      data:
+        first: 1
+        second: c6860100
+      data:
+        first: 4
+        second: a61a0600
+      data:
+        first: 23
+        second: 84182300
+      data:
+        first: 33
+        second: c45a3200
+    NewPlant08:
+      data:
+        first: 1
+        second: c4860100
+      data:
+        first: 4
+        second: a41a0600
+      data:
+        first: 23
+        second: 82182300
+      data:
+        first: 33
+        second: c25a3200
+    NewPlant09:
+      data:
+        first: 1
+        second: c2860100
+      data:
+        first: 4
+        second: a21a0600
+      data:
+        first: 23
+        second: 80182300
+      data:
+        first: 33
+        second: c05a3200
+    NewPlant10:
+      data:
+        first: 1
+        second: c0860100
+      data:
+        first: 4
+        second: a01a0600
+      data:
+        first: 23
+        second: 7e182300
+      data:
+        first: 33
+        second: be5a3200
+    NewPlant11:
+      data:
+        first: 1
+        second: be860100
+      data:
+        first: 4
+        second: 9e1a0600
+      data:
+        first: 23
+        second: 7c182300
+      data:
+        first: 33
+        second: bc5a3200
+    NewPlant12:
+      data:
+        first: 1
+        second: bc860100
+      data:
+        first: 4
+        second: 9c1a0600
+      data:
+        first: 23
+        second: 7a182300
+      data:
+        first: 33
+        second: ba5a3200
+    NewPlant13:
+      data:
+        first: 1
+        second: ba860100
+      data:
+        first: 4
+        second: 9a1a0600
+      data:
+        first: 23
+        second: 78182300
+      data:
+        first: 33
+        second: b85a3200
+    NewPlant14:
+      data:
+        first: 1
+        second: b8860100
+      data:
+        first: 4
+        second: 981a0600
+      data:
+        first: 23
+        second: 76182300
+      data:
+        first: 33
+        second: b65a3200
+    NewPlant15:
+      data:
+        first: 1
+        second: b6860100
+      data:
+        first: 4
+        second: 961a0600
+      data:
+        first: 23
+        second: 74182300
+      data:
+        first: 33
+        second: b45a3200
+    NewPlant16:
+      data:
+        first: 1
+        second: b4860100
+      data:
+        first: 4
+        second: 941a0600
+      data:
+        first: 23
+        second: 72182300
+      data:
+        first: 33
+        second: b25a3200
+    NewPlant17:
+      data:
+        first: 1
+        second: b2860100
+      data:
+        first: 4
+        second: 921a0600
+      data:
+        first: 23
+        second: 70182300
+      data:
+        first: 33
+        second: b05a3200
+    NewPlant18:
+      data:
+        first: 1
+        second: b0860100
+      data:
+        first: 4
+        second: 901a0600
+      data:
+        first: 23
+        second: 6e182300
+      data:
+        first: 33
+        second: ae5a3200
+    NewPlant19:
+      data:
+        first: 1
+        second: ae860100
+      data:
+        first: 4
+        second: 8e1a0600
+      data:
+        first: 23
+        second: 6c182300
+      data:
+        first: 33
+        second: ac5a3200
+    NewPlant20:
+      data:
+        first: 1
+        second: ac860100
+      data:
+        first: 4
+        second: 8c1a0600
+      data:
+        first: 23
+        second: 6a182300
+      data:
+        first: 33
+        second: aa5a3200
+    NewPlant21:
+      data:
+        first: 1
+        second: aa860100
+      data:
+        first: 4
+        second: 8a1a0600
+      data:
+        first: 23
+        second: 68182300
+      data:
+        first: 33
+        second: a85a3200
+    NewPlant22:
+      data:
+        first: 1
+        second: a8860100
+      data:
+        first: 4
+        second: 881a0600
+      data:
+        first: 23
+        second: 66182300
+      data:
+        first: 33
+        second: a65a3200
+    NewPlant23:
+      data:
+        first: 1
+        second: a6860100
+      data:
+        first: 4
+        second: 861a0600
+      data:
+        first: 23
+        second: 64182300
+      data:
+        first: 33
+        second: a45a3200
+    NewPlant24:
+      data:
+        first: 1
+        second: a4860100
+      data:
+        first: 4
+        second: 841a0600
+      data:
+        first: 23
+        second: 62182300
+      data:
+        first: 33
+        second: a25a3200
+    NewPlant25:
+      data:
+        first: 1
+        second: a2860100
+      data:
+        first: 4
+        second: 821a0600
+      data:
+        first: 23
+        second: 60182300
+      data:
+        first: 33
+        second: a05a3200
+    NewRock01:
+      data:
+        first: 1
+        second: 0a870100
+      data:
+        first: 4
+        second: ea1a0600
+      data:
+        first: 23
+        second: c8182300
+      data:
+        first: 33
+        second: 085b3200
+    NewRock02:
+      data:
+        first: 1
+        second: 08870100
+      data:
+        first: 4
+        second: e81a0600
+      data:
+        first: 23
+        second: c6182300
+      data:
+        first: 33
+        second: 065b3200
+    NewRock03:
+      data:
+        first: 1
+        second: 06870100
+      data:
+        first: 4
+        second: e61a0600
+      data:
+        first: 23
+        second: c4182300
+      data:
+        first: 33
+        second: 045b3200
+    NewRock04:
+      data:
+        first: 1
+        second: 04870100
+      data:
+        first: 4
+        second: e41a0600
+      data:
+        first: 23
+        second: c2182300
+      data:
+        first: 33
+        second: 025b3200
+    NewRock05:
+      data:
+        first: 1
+        second: 02870100
+      data:
+        first: 4
+        second: e21a0600
+      data:
+        first: 23
+        second: c0182300
+      data:
+        first: 33
+        second: 005b3200
+    NewRock06:
+      data:
+        first: 1
+        second: 00870100
+      data:
+        first: 4
+        second: e01a0600
+      data:
+        first: 23
+        second: be182300
+      data:
+        first: 33
+        second: fe5a3200
+    NewRock07:
+      data:
+        first: 1
+        second: fe860100
+      data:
+        first: 4
+        second: de1a0600
+      data:
+        first: 23
+        second: bc182300
+      data:
+        first: 33
+        second: fc5a3200
+    NewRock08:
+      data:
+        first: 1
+        second: fc860100
+      data:
+        first: 4
+        second: dc1a0600
+      data:
+        first: 23
+        second: ba182300
+      data:
+        first: 33
+        second: fa5a3200
+    NewRock09:
+      data:
+        first: 1
+        second: fa860100
+      data:
+        first: 4
+        second: da1a0600
+      data:
+        first: 23
+        second: b8182300
+      data:
+        first: 33
+        second: f85a3200
+    NewRock10:
+      data:
+        first: 1
+        second: f8860100
+      data:
+        first: 4
+        second: d81a0600
+      data:
+        first: 23
+        second: b6182300
+      data:
+        first: 33
+        second: f65a3200
+    NewRock11:
+      data:
+        first: 1
+        second: f6860100
+      data:
+        first: 4
+        second: d61a0600
+      data:
+        first: 23
+        second: b4182300
+      data:
+        first: 33
+        second: f45a3200
+    NewRock12:
+      data:
+        first: 1
+        second: f4860100
+      data:
+        first: 4
+        second: d41a0600
+      data:
+        first: 23
+        second: b2182300
+      data:
+        first: 33
+        second: f25a3200
+    NewRock13:
+      data:
+        first: 1
+        second: f2860100
+      data:
+        first: 4
+        second: d21a0600
+      data:
+        first: 23
+        second: b0182300
+      data:
+        first: 33
+        second: f05a3200
+    NewRock14:
+      data:
+        first: 1
+        second: f0860100
+      data:
+        first: 4
+        second: d01a0600
+      data:
+        first: 23
+        second: ae182300
+      data:
+        first: 33
+        second: ee5a3200
+    NewRock15:
+      data:
+        first: 1
+        second: ee860100
+      data:
+        first: 4
+        second: ce1a0600
+      data:
+        first: 23
+        second: ac182300
+      data:
+        first: 33
+        second: ec5a3200
+    NewRock16:
+      data:
+        first: 1
+        second: ec860100
+      data:
+        first: 4
+        second: cc1a0600
+      data:
+        first: 23
+        second: aa182300
+      data:
+        first: 33
+        second: ea5a3200
+    NewRock17:
+      data:
+        first: 1
+        second: ea860100
+      data:
+        first: 4
+        second: ca1a0600
+      data:
+        first: 23
+        second: a8182300
+      data:
+        first: 33
+        second: e85a3200
+    NewTree01:
+      data:
+        first: 1
+        second: 36870100
+      data:
+        first: 4
+        second: 161b0600
+      data:
+        first: 23
+        second: f4182300
+      data:
+        first: 33
+        second: 345b3200
+    NewTree02:
+      data:
+        first: 1
+        second: 34870100
+      data:
+        first: 4
+        second: 141b0600
+      data:
+        first: 23
+        second: f2182300
+      data:
+        first: 33
+        second: 325b3200
+    NewTree03:
+      data:
+        first: 1
+        second: 32870100
+      data:
+        first: 4
+        second: 121b0600
+      data:
+        first: 23
+        second: f0182300
+      data:
+        first: 33
+        second: 305b3200
+    NewTree04:
+      data:
+        first: 1
+        second: 30870100
+      data:
+        first: 4
+        second: 101b0600
+      data:
+        first: 23
+        second: ee182300
+      data:
+        first: 33
+        second: 2e5b3200
+    NewTree05:
+      data:
+        first: 1
+        second: 2e870100
+      data:
+        first: 4
+        second: 0e1b0600
+      data:
+        first: 23
+        second: ec182300
+      data:
+        first: 33
+        second: 2c5b3200
+    NewTree06:
+      data:
+        first: 1
+        second: 2c870100
+      data:
+        first: 4
+        second: 0c1b0600
+      data:
+        first: 23
+        second: ea182300
+      data:
+        first: 33
+        second: 2a5b3200
+    NewTree07:
+      data:
+        first: 1
+        second: 2a870100
+      data:
+        first: 4
+        second: 0a1b0600
+      data:
+        first: 23
+        second: e8182300
+      data:
+        first: 33
+        second: 285b3200
+    NewTree08:
+      data:
+        first: 1
+        second: 28870100
+      data:
+        first: 4
+        second: 081b0600
+      data:
+        first: 23
+        second: e6182300
+      data:
+        first: 33
+        second: 265b3200
+    NewTree09:
+      data:
+        first: 1
+        second: 26870100
+      data:
+        first: 4
+        second: 061b0600
+      data:
+        first: 23
+        second: e4182300
+      data:
+        first: 33
+        second: 245b3200
+    NewTree10:
+      data:
+        first: 1
+        second: 24870100
+      data:
+        first: 4
+        second: 041b0600
+      data:
+        first: 23
+        second: e2182300
+      data:
+        first: 33
+        second: 225b3200
+    NewTree11:
+      data:
+        first: 1
+        second: 22870100
+      data:
+        first: 4
+        second: 021b0600
+      data:
+        first: 23
+        second: e0182300
+      data:
+        first: 33
+        second: 205b3200
+    NewTree12:
+      data:
+        first: 1
+        second: 20870100
+      data:
+        first: 4
+        second: 001b0600
+      data:
+        first: 23
+        second: de182300
+      data:
+        first: 33
+        second: 1e5b3200
+    NewTree13:
+      data:
+        first: 1
+        second: 1e870100
+      data:
+        first: 4
+        second: fe1a0600
+      data:
+        first: 23
+        second: dc182300
+      data:
+        first: 33
+        second: 1c5b3200
+    NewTree14:
+      data:
+        first: 1
+        second: 1c870100
+      data:
+        first: 4
+        second: fc1a0600
+      data:
+        first: 23
+        second: da182300
+      data:
+        first: 33
+        second: 1a5b3200
+    NewTree15:
+      data:
+        first: 1
+        second: 1a870100
+      data:
+        first: 4
+        second: fa1a0600
+      data:
+        first: 23
+        second: d8182300
+      data:
+        first: 33
+        second: 185b3200
+    NewTree16:
+      data:
+        first: 1
+        second: 18870100
+      data:
+        first: 4
+        second: f81a0600
+      data:
+        first: 23
+        second: d6182300
+      data:
+        first: 33
+        second: 165b3200
+    NewTree17:
+      data:
+        first: 1
+        second: 16870100
+      data:
+        first: 4
+        second: f61a0600
+      data:
+        first: 23
+        second: d4182300
+      data:
+        first: 33
+        second: 145b3200
+    NewTree18:
+      data:
+        first: 1
+        second: 14870100
+      data:
+        first: 4
+        second: f41a0600
+      data:
+        first: 23
+        second: d2182300
+      data:
+        first: 33
+        second: 125b3200
+    NewTree19:
+      data:
+        first: 1
+        second: 12870100
+      data:
+        first: 4
+        second: f21a0600
+      data:
+        first: 23
+        second: d0182300
+      data:
+        first: 33
+        second: 105b3200
+    NewTree20:
+      data:
+        first: 1
+        second: 10870100
+      data:
+        first: 4
+        second: f01a0600
+      data:
+        first: 23
+        second: ce182300
+      data:
+        first: 33
+        second: 0e5b3200
+    NewTree21:
+      data:
+        first: 1
+        second: 0e870100
+      data:
+        first: 4
+        second: ee1a0600
+      data:
+        first: 23
+        second: cc182300
+      data:
+        first: 33
+        second: 0c5b3200
+    NewTree22:
+      data:
+        first: 1
+        second: 0c870100
+      data:
+        first: 4
+        second: ec1a0600
+      data:
+        first: 23
+        second: ca182300
+      data:
+        first: 33
+        second: 0a5b3200
+    Water01:
+      data:
+        first: 1
+        second: 3e870100
+      data:
+        first: 4
+        second: 1e1b0600
+      data:
+        first: 23
+        second: fc182300
+      data:
+        first: 33
+        second: 3c5b3200
+    Water02:
+      data:
+        first: 1
+        second: 3c870100
+      data:
+        first: 4
+        second: 1c1b0600
+      data:
+        first: 23
+        second: fa182300
+      data:
+        first: 33
+        second: 3a5b3200
+    Water03:
+      data:
+        first: 1
+        second: 3a870100
+      data:
+        first: 4
+        second: 1a1b0600
+      data:
+        first: 23
+        second: f8182300
+      data:
+        first: 33
+        second: 385b3200
+    Water04:
+      data:
+        first: 1
+        second: 38870100
+      data:
+        first: 4
+        second: 181b0600
+      data:
+        first: 23
+        second: f6182300
+      data:
+        first: 33
+        second: 365b3200
