@@ -507,6 +507,11 @@ public class PlayerController : MonoBehaviour {
 	
 	void onPause()
 	{
+		// Disable Pause in Reload Mode
+		// Bugfix hack: Pause does not release in Reload Menu.
+		if (GameState == _GameState.Reload)
+			return;
+		
 		if( Time.timeScale == 1 )
 		{
 			_cachedAxes = axes;
