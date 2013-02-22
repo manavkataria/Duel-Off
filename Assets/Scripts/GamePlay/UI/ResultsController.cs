@@ -301,7 +301,7 @@ public class ResultsController : MonoBehaviour {
 	
 	IEnumerator showUnlocks( List<string[,]> items )
 	{
-		UnityEngine.Debug.Log("MK - UNlock Screen");
+		UnityEngine.Debug.Log("ResultsController.cs: UNlock Screen");
 		
 		for( int i = 0; i < items.Count; i++ )
 		{
@@ -316,10 +316,10 @@ public class ResultsController : MonoBehaviour {
 		}
 		
 		if( onResultsFinished != null ) {
-			UnityEngine.Debug.Log("MK - UNlock Screen - Finished!");
+			UnityEngine.Debug.Log("ResultsController.cs: UNlock Screen - Finished!");
 			onResultsFinished();
 		} else {
-			UnityEngine.Debug.Log("MK - UNlock Screen - Skipped onResultsFinished() - mkfadeToMainMenu");
+			UnityEngine.Debug.Log("ResultsController.cs: UNlock Screen - Skipped onResultsFinished() - mkfadeToMainMenu");
 			StartCoroutine( mkfadeToMainMenu() );
 		}
 			
@@ -334,7 +334,7 @@ public class ResultsController : MonoBehaviour {
 	
 	IEnumerator deathRoutine(EnemyStats stats)
 	{
-		UnityEngine.Debug.Log("MK - Death Routine");
+		UnityEngine.Debug.Log("ResultsController.cs: Death Routine");
 
 		if( canPress )
 		{

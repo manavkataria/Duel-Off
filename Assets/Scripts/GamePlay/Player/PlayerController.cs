@@ -501,7 +501,7 @@ public class PlayerController : MonoBehaviour {
     }
 	
 	void onQuit() {
-		UnityEngine.Debug.Log("MK - PlayerController.cs onQuit()");			
+		UnityEngine.Debug.Log("PlayerController.cs onQuit()");			
 		StartCoroutine( fadeToMainMenu() ); 
 	}
 	
@@ -509,8 +509,10 @@ public class PlayerController : MonoBehaviour {
 	{
 		// Disable Pause in Reload Mode
 		// Bugfix hack: Pause does not release in Reload Menu.
-		if (GameState == _GameState.Reload)
+		if (GameState == _GameState.Reload) {
+			UnityEngine.Debug.Log("PlayerController.cs: Bypass Pause in Reload Menu");
 			return;
+		}
 		
 		if( Time.timeScale == 1 )
 		{

@@ -35,7 +35,7 @@ public class QuitSprite : MonoBehaviour {
 		{
 			if( Application.platform == RuntimePlatform.IPhonePlayer ) {
 				ChartBoostBinding.trackEvent( "Quit Button Event" );
-				UnityEngine.Debug.Log("MK - onUIUpdate: Quit Button Event");
+				UnityEngine.Debug.Log("QuitSprite.cs: onUIUpdate: Quit Button Event");
 			}
 			
 			DBAccess.instance.userPrefs.playCount++;
@@ -101,7 +101,7 @@ public class QuitSprite : MonoBehaviour {
 			)
 		);
 		
-		UnityEngine.Debug.Log("MK - onQuit Results finished");
+		UnityEngine.Debug.Log("QuitSprite.cs: onQuit Results finished");
 	}
 	
 	void onHitByRayCast( GameObject clicked )

@@ -94,7 +94,7 @@ public class PauseSprite : MonoBehaviour {
 			)
 		);
 		
-		UnityEngine.Debug.Log("MK - onPause ResultsFinished");
+		UnityEngine.Debug.Log("PauseSprite.cs: onPause ResultsFinished");
 	}
 	
 	void onHitByRayCast( GameObject clicked )
