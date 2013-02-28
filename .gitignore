@@ -22,3 +22,5 @@ Builds/
 *.sln
 *.pidb
 *.userprefs
+
+Assets/.DS_Store

@@ -33,7 +33,7 @@ public class TutorialGrid : UIGrid {
 		base.Start();
 		yield return new WaitForSeconds(1.2f);
 		moveGrid(Tutorial._TutorialState.InTransition);
-		yield return new WaitForSeconds(2f);
+		yield return new WaitForSeconds(7.5f);
 		moveGrid(Tutorial._TutorialState.None);
 	}
 	
