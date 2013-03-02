@@ -16,6 +16,13 @@ public class StoreTopController : MonoBehaviour {
     {
         if (clicked != null)
         {
+			// Temporary bypass to prevent user from purchasing bullets 
+			if (clicked.supplyType == SuppliesUIObject._SupplyType.Ammo) {
+				GameObject bullet;
+				bullet = GameObject.Find("Top Ammo");
+				return;
+			}
+
             if (state != MainMenuController.MenuState.InTransition && clicked.itemLocale == SuppliesUIObject._ItemLocale.StoreTop)
             {
                 MainMenuController.instance.menuState = MainMenuController.MenuState.InTransition;

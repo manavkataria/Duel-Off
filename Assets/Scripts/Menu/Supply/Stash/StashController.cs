@@ -53,6 +53,7 @@ public class StashController : SupplyWindow {
 	
 	void onBroadcastUpdate()
 	{
+		// QUESTION: Why are we deleting purchased items again?
 		grids[0].deletePurchasedItems();
 		grids[0].AddPurchasedItems(SuppliesUIObject._SupplyType.Gun, SuppliesUIObject._ItemLocale.StashGridItem );
 		grids[1].deletePurchasedItems();

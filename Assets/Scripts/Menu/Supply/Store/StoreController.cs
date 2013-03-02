@@ -39,6 +39,7 @@ public class StoreController : SupplyWindow {
 	{
 		// Populate Store items with info from Database
 		grids[0].AddPurchasedItems( SuppliesUIObject._SupplyType.Gun, SuppliesUIObject._ItemLocale.StoreGridItem );
+		// QUESTION: Why _SupplyType.None, why not _SupplyType.Ammo?
 		grids[1].AddPurchasedItems( SuppliesUIObject._SupplyType.None, SuppliesUIObject._ItemLocale.StoreGridItem );
 		grids[2].AddPurchasedItems( SuppliesUIObject._SupplyType.Health, SuppliesUIObject._ItemLocale.StoreGridItem );
 		
@@ -49,6 +50,7 @@ public class StoreController : SupplyWindow {
 	
 	void onBroadcastUpdate()
 	{
+		// QUESTION: Why delete Purchased Items?
 		grids[0].deletePurchasedItems();
 		grids[0].AddPurchasedItems( SuppliesUIObject._SupplyType.Gun, SuppliesUIObject._ItemLocale.StoreGridItem );
 		grids[1].deletePurchasedItems();
@@ -85,8 +87,15 @@ public class StoreController : SupplyWindow {
 
     protected override void setActiveGrid(SuppliesUIObject clicked, MainMenuController.MenuState state, GameObject hit)
     {
+			
         if (clicked != null)
         {
+			// Temporary bypass to prevent user from purchasing bullets 
+			if (clicked.supplyType == SuppliesUIObject._SupplyType.Ammo) {
+				//clicked.mWidget.alpha = 0.5f;
+				return;
+			}
+
             if ( clicked.supplyType == SuppliesUIObject._SupplyType.Gun || 
                  clicked.supplyType == SuppliesUIObject._SupplyType.Health || 
                  clicked.supplyType == SuppliesUIObject._SupplyType.Ammo ) {   
