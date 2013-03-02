@@ -500,8 +500,18 @@ public class PlayerController : MonoBehaviour {
         return Mathf.Clamp (angle, min, max);
     }
 	
-	void onQuit() {
-		UnityEngine.Debug.Log("PlayerController.cs onQuit()");			
+	public void onQuit() {
+		Debug.Log("PlayerController.cs onQuit()");
+		
+		// Display Ad Before Quit.
+		RevMobManager rmm = (RevMobManager) FindObjectOfType(typeof(RevMobManager));
+		
+        if (rmm != null) {
+			rmm.DisplayAd();
+		} else {
+			Debug.LogWarning("RevMobManager Script Not Found!");
+		}
+		
 		StartCoroutine( fadeToMainMenu() ); 
 	}
 	

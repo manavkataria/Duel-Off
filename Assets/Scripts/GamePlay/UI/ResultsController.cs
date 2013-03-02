@@ -319,18 +319,18 @@ public class ResultsController : MonoBehaviour {
 			UnityEngine.Debug.Log("ResultsController.cs: UNlock Screen - Finished!");
 			onResultsFinished();
 		} else {
-			UnityEngine.Debug.Log("ResultsController.cs: UNlock Screen - Skipped onResultsFinished() - mkfadeToMainMenu");
-			StartCoroutine( mkfadeToMainMenu() );
-		}
+			UnityEngine.Debug.Log("ResultsController.cs: UNlock Screen - Skipped onResultsFinished() - onQuit");
 			
-		
+			PlayerController pc = (PlayerController) FindObjectOfType(typeof(PlayerController));
+			if (pc != null) {
+				pc.onQuit();
+			} else {
+				Debug.LogError("PlayerController Script Not Found!");
+			}
+			
+		}
 	}
 	
-	IEnumerator mkfadeToMainMenu()
-	{
-		yield return new WaitForSeconds(2f);
-		Application.LoadLevel(0);
-	}
 	
 	IEnumerator deathRoutine(EnemyStats stats)
 	{

@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
 /* Main Menu Controller
  * -- Attached to UI_Main in Hierarchy
@@ -86,7 +87,32 @@ public class MainMenuController : MonoSingleton<MainMenuController> {
 #endif
 	}
     
-    IEnumerator Start()
+	private RevMob revmob;
+ 	
+	private static readonly Dictionary<string, string> appIds = new Dictionary<string, string>() {
+		{ "Android", "4f56aa6e3dc441000e005a20"},	//Invalid AppId. Dummy.
+		{ "IOS", "5130f2e2424648d21e000025" }
+    };
+	
+    void Awake() {
+		//Debug.Log("RevMob Start");
+		//revmob = RevMob.Start(appIds);
+		//DontDestroyOnLoad (this);
+    }
+	
+    //Display RevMob Ad
+	public void DisplayAd() {
+#if UNITY_IPHONE
+		if (revmob != null) {
+			Debug.Log("Displaying REVMOB FullScreen Ad");
+			revmob.ShowFullscreen();
+		} else {
+			Debug.Log("REVMOB is NULL!");
+		}
+#endif
+	}
+	
+	IEnumerator Start()
     {
 		while( !DBAccess.instance.isDbInit ) { yield return null; }
 		
