@@ -1,6 +1,5 @@
 using UnityEngine;
 using System.Collections;
-using System.Collections.Generic;
 
 /* Main Menu Controller
  * -- Attached to UI_Main in Hierarchy
@@ -77,7 +76,6 @@ public class MainMenuController : MonoSingleton<MainMenuController> {
 		if( GameObject.Find("ChartBoostManager") == null && GameObject.Find("ChartBoostManager(Clone)" ) == null )
 			cbm = (GameObject)Instantiate(Resources.Load(PRIME31_DIRECTORY + "ChartBoostManager" ) );
 			
-		
 #if UNITY_IPHONE	
 		ChartBoostBinding.init( CHARTBOOST_APPID, CHARTBOOST_SIGNATURE );
 		StoreKitBinding.requestProductData( PRODUCT_IDENTIFIERS );
@@ -86,30 +84,26 @@ public class MainMenuController : MonoSingleton<MainMenuController> {
 			GameCenterBinding.authenticateLocalPlayer();
 #endif
 	}
-    
-	private RevMob revmob;
- 	
-	private static readonly Dictionary<string, string> appIds = new Dictionary<string, string>() {
-		{ "Android", "4f56aa6e3dc441000e005a20"},	//Invalid AppId. Dummy.
-		{ "IOS", "5130f2e2424648d21e000025" }
-    };
 	
-    void Awake() {
-		//Debug.Log("RevMob Start");
-		//revmob = RevMob.Start(appIds);
-		//DontDestroyOnLoad (this);
-    }
-	
-    //Display RevMob Ad
-	public void DisplayAd() {
-#if UNITY_IPHONE
-		if (revmob != null) {
-			Debug.Log("Displaying REVMOB FullScreen Ad");
-			revmob.ShowFullscreen();
+	void DisplayAd() {
+		RevMobManager rmm = (RevMobManager) FindObjectOfType(typeof(RevMobManager));
+		
+        if (rmm != null) {
+			rmm.DisplayAd();
 		} else {
-			Debug.Log("REVMOB is NULL!");
+			Debug.LogWarning("RevMobManager Script Not Found!");
+		}	
+	}
+	
+	public static bool advertised = false;
+	
+	void Awake() {
+		//Display Ad at Start.
+		if (advertised == false) {
+			Debug.Log("Display Ad at Awake");
+			DisplayAd();
+			advertised = true;
 		}
-#endif
 	}
 	
 	IEnumerator Start()

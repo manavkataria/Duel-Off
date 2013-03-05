@@ -7,7 +7,7 @@ public class RevMobManager : MonoBehaviour {
 	public RevMob revmob;
  	
 	public static readonly Dictionary<string, string> appIds = new Dictionary<string, string>() {
-		{ "Android", "4f56aa6e3dc441000e005a20"},
+		{ "Android", "DUMMY-ID"},
 		{ "IOS", "5130f2e2424648d21e000025" }
     };
 	
